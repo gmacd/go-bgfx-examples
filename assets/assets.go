@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/james4k/go-bgfx"
+	"github.com/gmacd/go-bgfx"
 )
 
 var dirs = filepath.SplitList(os.Getenv("GOPATH"))

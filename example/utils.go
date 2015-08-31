@@ -2,7 +2,7 @@ package example
 
 import (
 	"github.com/go-gl/mathgl/mgl32"
-	"github.com/james4k/go-bgfx"
+	"github.com/gmacd/go-bgfx"
 )
 
 func CalculateTangents(vertices interface{}, numVertices int, decl bgfx.VertexDecl, indices []uint16) {

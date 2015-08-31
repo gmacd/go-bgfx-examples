@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	glfw "github.com/go-gl/glfw3"
-	"github.com/james4k/go-bgfx/window/bgfx_glfw"
+	"github.com/go-gl/glfw/v3.1/glfw"
+	"github.com/gmacd/go-bgfx/window/bgfx_glfw"
 )
 
 func init() {
@@ -58,8 +58,8 @@ func (a *Application) glfwError(errno glfw.ErrorCode, desc string) {
 }
 
 func (a *Application) init() {
-	glfw.SetErrorCallback(a.glfwError)
-	if !glfw.Init() {
+	//glfw.SetErrorCallback(a.glfwError)
+	if err := glfw.Init(); err != nil {
 		os.Exit(1)
 	}
 

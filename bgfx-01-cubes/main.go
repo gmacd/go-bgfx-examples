@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/james4k/go-bgfx"
-	"github.com/james4k/go-bgfx-examples/assets"
-	"github.com/james4k/go-bgfx-examples/example"
+	"github.com/gmacd/go-bgfx"
+	"github.com/gmacd/go-bgfx-examples/assets"
+	"github.com/gmacd/go-bgfx-examples/example"
 	"j4k.co/cgm"
 	"j4k.co/cgm/mat4"
 )

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/james4k/go-bgfx"
-	"github.com/james4k/go-bgfx-examples/example"
+	"github.com/gmacd/go-bgfx"
+	"github.com/gmacd/go-bgfx-examples/example"
 )
 
 func main() {
